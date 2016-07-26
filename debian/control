@@ -1,0 +1,12 @@
+Source: ros-kinetic-tuw-spline-msgs
+Section: misc
+Priority: extra
+Maintainer: George Todoran <george.todoran@tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-message-runtime, ros-kinetic-std-msgs, ros-kinetic-std-srvs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-tuw-spline-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-message-generation, ros-kinetic-message-runtime, ros-kinetic-std-msgs, ros-kinetic-std-srvs
+Description: Message and service data structures.
