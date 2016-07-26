@@ -1,0 +1,8 @@
+ros-kinetic-tuw-gazebo-msgs (0.0.1-0jessie) jessie; urgency=high
+
+  * added tuw_gazebo_msgs and tuw_spline_msgs
+  * Contributors: Horatiu George Todoran
+
+ -- George Todoran <todorangrg@gmail.com>  Mon, 25 Jul 2016 22:00:00 -0000
+
+
