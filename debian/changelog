@@ -1,0 +1,9 @@
+ros-kinetic-tuw-msgs (0.0.1-0xenial) xenial; urgency=high
+
+  * meta package details added
+  * added tuw_gazebo_msgs and tuw_spline_msgs
+  * Contributors: Horatiu George Todoran, Markus Bader @ munin
+
+ -- George Todoran <george.todoran@tuwien.ac.at>  Mon, 25 Jul 2016 22:00:00 -0000
+
+
