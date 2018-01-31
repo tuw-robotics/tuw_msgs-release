@@ -13,8 +13,6 @@ add_message_files(
   JointsMeasureI4ws.msg
   JointCmd.msg
   JointsCmdI4ws.msg
-  IwsCmd_VRAT.msg
-  IwsCmd_VRAT_Vec.msg
   Measure.msg
   JointState.msg
 )
@@ -22,8 +20,12 @@ add_message_files(
 generate_messages(DEPENDENCIES std_msgs )
 
 catkin_package(
-  CATKIN_DEPENDS
-  message_runtime
-  std_msgs
-  message_generation
+  CATKIN_DEPENDS message_runtime std_msgs
+)
+
+## Mark cpp header files for installation
+install(DIRECTORY include/${PROJECT_NAME}/
+  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+  FILES_MATCHING PATTERN "*.h"
+  PATTERN ".svn" EXCLUDE
 )
