@@ -55,14 +55,15 @@ find_package(catkin REQUIRED COMPONENTS
   FILES
   RouteSegment.msg
   RouteSegments.msg
-  float64Array.msg
+  Float64Array.msg
   Spline.msg
   JointsIWS.msg
-  IwsCmd_VRAT.msg
-  IwsCmd_VRAT_Vec.msg
-  IwsCmd_VWWT_Vec.msg
-  DiffDriveCmd_VW_Vec.msg
+  IwsCmdVRAT.msg
+  IwsCmdVRATVec.msg
+  IwsCmdVWWTVec.msg
+  DiffDriveCmdVWVec.msg
   PathVec.msg
+  BaseConstr.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -169,11 +170,11 @@ target_link_libraries(tuw_nav_msgs ${catkin_LIBRARIES})
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS tuw_nav_msgs tuw_nav_msgs_node
+install(TARGETS tuw_nav_msgs
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
-#   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-# )
+)
 
 ## Mark cpp header files for installation
 install(DIRECTORY include/${PROJECT_NAME}/
