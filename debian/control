@@ -1,0 +1,12 @@
+Source: ros-melodic-tuw-vehicle-msgs
+Section: misc
+Priority: extra
+Maintainer: Raphael Hauk <raphael.hauk@racing.tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-tuw-vehicle-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-std-msgs
+Description: The tuw_vehicle_msgs package
