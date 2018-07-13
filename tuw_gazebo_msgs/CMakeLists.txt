@@ -13,7 +13,6 @@ add_message_files(
   JointsMeasureI4ws.msg
   JointCmd.msg
   JointsCmdI4ws.msg
-  Measure.msg
   JointState.msg
 )
 
@@ -29,3 +28,8 @@ install(DIRECTORY include/${PROJECT_NAME}/
   FILES_MATCHING PATTERN "*.h"
   PATTERN ".svn" EXCLUDE
 )
+
+## Mark executables and/or libraries for installation
+#install(TARGETS tuw_gazebo_msgs
+#   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
+#)
