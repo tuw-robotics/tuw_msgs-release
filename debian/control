@@ -1,0 +1,12 @@
+Source: ros-melodic-tuw-multi-robot-msgs
+Section: misc
+Priority: extra
+Maintainer: Benjamin Binder <benjamin.binder@tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-nav-msgs, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-tuw-multi-robot-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-nav-msgs, ros-melodic-std-msgs
+Description: The tuw_multi_robot_msgs package contains messages for sending graph, route and sync data over topics.
