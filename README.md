@@ -1,3 +1,34 @@
+## tuw_msgs (melodic) - 0.0.9-0
+
+The packages in the `tuw_msgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release tuw_msgs --rosdistro melodic` on `Wed, 12 Sep 2018 12:01:05 -0000`
+
+These packages were released:
+- `tuw_airskin_msgs`
+- `tuw_gazebo_msgs`
+- `tuw_geometry_msgs`
+- `tuw_msgs`
+- `tuw_multi_robot_msgs`
+- `tuw_nav_msgs`
+- `tuw_object_msgs`
+- `tuw_vehicle_msgs`
+
+Version of package(s) in repository `tuw_msgs`:
+
+- upstream repository: https://github.com/tuw-robotics/tuw_msgs.git
+- release repository: https://github.com/tuw-robotics/tuw_msgs-release.git
+- rosdistro version: `0.0.8-0`
+- old version: `0.0.8-0`
+- new version: `0.0.9-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.9`
+- vcstools version: `0.1.40`
+
+
 ## tuw_msgs (melodic) - 0.0.8-0
 
 The packages in the `tuw_msgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release tuw_msgs --track melodic --rosdistro melodic` on `Fri, 13 Jul 2018 07:41:58 -0000`
