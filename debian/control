@@ -1,0 +1,12 @@
+Source: ros-melodic-tuw-msgs
+Section: misc
+Priority: extra
+Maintainer: George Todoran <george.todoran@tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-tuw-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-tuw-airskin-msgs, ros-melodic-tuw-gazebo-msgs, ros-melodic-tuw-geometry-msgs, ros-melodic-tuw-multi-robot-msgs, ros-melodic-tuw-nav-msgs, ros-melodic-tuw-object-msgs, ros-melodic-tuw-vehicle-msgs
+Description: The tuw_msgs meta package
