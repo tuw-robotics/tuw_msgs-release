@@ -1,0 +1,12 @@
+Source: ros-kinetic-tuw-msgs
+Section: misc
+Priority: extra
+Maintainer: George Todoran <george.todoran@tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-tuw-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-tuw-airskin-msgs, ros-kinetic-tuw-gazebo-msgs, ros-kinetic-tuw-geometry-msgs, ros-kinetic-tuw-multi-robot-msgs, ros-kinetic-tuw-nav-msgs, ros-kinetic-tuw-object-msgs, ros-kinetic-tuw-vehicle-msgs
+Description: The tuw_msgs meta package
