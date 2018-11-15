@@ -1,9 +1,6 @@
 #################################################################
-## Current position of a good
+## Array of Stations for Robots to Drive to
 #################################################################
 
-Header                 header
-int32                  good_id
-geometry_msgs/Pose     position
-
-
+Header          header      # header
+Station[]       stations    # array of stations
