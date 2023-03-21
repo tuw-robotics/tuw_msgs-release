@@ -1,3 +1,32 @@
+## tuw_msgs (rolling) - 0.0.15-2
+
+The packages in the `tuw_msgs` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --new-track --rosdistro rolling --track rolling tuw_msgs` on `Tue, 21 Mar 2023 21:06:14 -0000`
+
+These packages were released:
+- `tuw_airskin_msgs`
+- `tuw_geometry_msgs`
+- `tuw_msgs`
+- `tuw_multi_robot_msgs`
+- `tuw_nav_msgs`
+- `tuw_object_msgs`
+
+Version of package(s) in repository `tuw_msgs`:
+
+- upstream repository: https://github.com/tuw-robotics/tuw_msgs.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.0.15-1`
+- new version: `0.0.15-2`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## tuw_msgs (humble) - 0.0.15-3
 
 The packages in the `tuw_msgs` repository were released into the `humble` distro by running `/usr/bin/bloom-release --new-track --rosdistro humble --track humble tuw_msgs` on `Tue, 21 Mar 2023 20:59:05 -0000`
