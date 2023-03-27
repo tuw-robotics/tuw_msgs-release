@@ -1,0 +1,12 @@
+Source: ros-foxy-tuw-msgs
+Section: misc
+Priority: optional
+Maintainer: Markus Bader <markus.bader@tuwien.ac.at>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-foxy-tuw-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-tuw-airskin-msgs, ros-foxy-tuw-geometry-msgs, ros-foxy-tuw-multi-robot-msgs, ros-foxy-tuw-nav-msgs, ros-foxy-tuw-object-msgs, ros-foxy-ros-workspace
+Description: The tuw_msgs meta package
