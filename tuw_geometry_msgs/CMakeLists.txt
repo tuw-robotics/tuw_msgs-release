@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.5)
 
 project(tuw_geometry_msgs)
 
-
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)
@@ -26,7 +25,7 @@ set(msg_files
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
-  DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
+  DEPENDENCIES geometry_msgs std_msgs
   ADD_LINTER_TESTS
 )
 
